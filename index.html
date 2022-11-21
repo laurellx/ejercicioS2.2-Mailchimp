@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp Sign In</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Inter:wght@300;800&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Nanum+Gothic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/icomoon-v1.0/style.css"></head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charis+SIL:wght@700&family=Inter:wght@300;800&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Nanum+Gothic&family=Roboto+Slab:wght@200;300&display=swap" rel="stylesheet">
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjiotGfc5jUP0ZKP3K9rUN5hRnqti5A9YBw9qzw_o9mfIssI8AbUW8R1KqYKlirxfQww&usqp=CAU" alt="mailchimp logo">        
+        </div>
+            <div class="content">
+                <h1>Welcome to Mailchimp</h1>
+                <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account? <a class="not-underlined" href="#">Log in</a></p>
+                <form>
+                <fieldset class="credentials">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </fieldset>
+                <fieldset class="credentials">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" maxlength="10" minlength="5">
+                </fieldset>
+                <fieldset class="credentials">
+                    <label for="password">Password</label>
+                    <span class="icon-eye"></span>
+                    <span>Show</span>
+                    <input type="password" name="password" id="password" required minlength="8">
+                </fieldset>
+                <div class="list">
+                    <div class="list-left">
+                        <ul>
+                            <li>One lowercase character</li>
+                            <li>One uppercase character</li>
+                            <li>One number</li>
+                        </ul>
+                    </div>    
+                    <div class="list-right">  
+                        <ul>
+                            <li>One special character</li>
+                            <li>8 characters minimum</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="formSubmission">
+                    <button>Sign Up</button>
+                    <fieldset class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</label>
+                    </fieldset>
+                </div>
+                    
+            </form>
+            <div class="terms">
+            <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            </div>
+        </div>
+    
+    </div>
+
+</body>
+</html>
