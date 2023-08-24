@@ -33,27 +33,27 @@ p {
 }
 
 .wrapper {
-    padding-left: 50px;
+    height: 100vh;
 }
 
 body {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
-    padding-top: 100px;
 }
 
 .box {
     display: inline-block;
     position: absolute;
     top: 150px;
-    width: fit-content;
+    left: 20%;
 }
 
 .content {
     width: 600px;
-    padding-left: 50px;
+    top: 100px;
+    padding-left: 10px;
     position: absolute;
-    left: 300px;
+    left: 35%;
 }
 
 .list {
